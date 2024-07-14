@@ -1,3 +1,5 @@
+This program (ARMSprimer3 is a suit of Python3 programs, i.e. armsprimer3.py, bioCommons.py, maskSNP.py, pcr.py, and primer3.py, by Huazhang Guo, M.D., Ph.D., Department of Pathology, SLUCare Physician Group of Saint Louis University&SSM Health Care System. Email: huazhang.guo@gmail.com) is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation as long as this paragraph is included in all distribution and modifications. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
+
 ARMSprimer3 is a suit of Python3 programs to design real time PCR primers for detecting single nucleotide polymorphism in human blood/tissue samples. It can be used either in clinical test development or research settings. 
 
 Usage by example: >>> python3 armsprimer3.py rs6025
@@ -12,7 +14,7 @@ Mandatory input: a SNP ID, such as rs6025
 Optional input: the provided files "parameterDefault.json" and "parameterOverride.json" were tuned for SYBR Green real-time ARMS-PCR, "parameterOverride.json" can be modified to design other types of ARMS-PCR, such as probe-based real-time ARMS-PCR, or tetra-primer ARMS-PCR. It is adviced not to modify the "parameterDefault.json" and use it as reference. The parameters are identical to primer3_core program. Please see Primer3 manual for details. 
 
 Output: 
-	realarms.py output files:
+	armsprimer3.py output files:
 		"screenOutput.txt"
 			all screen output while runing the programs are saved in this file
 
