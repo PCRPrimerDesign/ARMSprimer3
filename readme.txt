@@ -6,7 +6,7 @@ Usage by example: >>> python3 armsprimer3.py rs6025
 
 Requirments to run the program:
 	1) An Unix operating system (for example, Linux, Mac OSX, and Windows Subsystem for Linux).
-	2) 'Primer3_core', 'twoBitToFa', and 'mysql' programs are installed or copied to the shell's executable search path.
+	2) 'Primer3_core' (primer3.org), 'twoBitToFa' (University of California, Santa Cruz), and 'mysql' (mysql.com) programs are installed or copied to the shell's executable search path.
 	3) Create a work directory and copy armsprimer3.py, bioCommons.py, maskSNP.py, pcr.py, parameterDefault.json, parameterOverride.json, and primer3.py to the work directory. Then run the above command in the work directory.
 
 Mandatory input: a SNP ID, such as rs6025
