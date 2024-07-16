@@ -1,0 +1,3 @@
+chrom	chromStart	chromEnd	name	strand	refNCBI	refUCSC	observed	class	func	alleleFreqs
+chr11	46739205	46739206	rs3136516	+	G	G	A/G	single	intron	0.282947,0.717053,
+chr11	46739954	46739955	rs3136519	+	C	C	C/T	single	near-gene-3	0.978235,0.021765,

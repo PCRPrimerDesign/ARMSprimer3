@@ -1,0 +1,4 @@
+chrom	chromStart	chromEnd	name	strand	refNCBI	refUCSC	observed	class	func	alleleFreqs
+chr6	26090774	26090775	rs2227837	+	T	T	C/T	single	intron	0.386959,0.613041,
+chr6	26090950	26090951	rs1799945	+	C	C	C/G	single	intron,ncRNA,missense	0.894729,0.105271,
+chr6	26091107	26091108	rs2071303	-	T	T	A/G	single	intron	0.629095,0.370905,

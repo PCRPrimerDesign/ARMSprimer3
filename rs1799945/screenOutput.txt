@@ -1,0 +1,103 @@
+Directory 'rs1799945' is created and will contain output files
+Details of your targeted SNP:
+
+chrom	chromStart	chromEnd	name	strand	refNCBI	refUCSC	observed	class	func	alleleFreqs
+chr6	26090950	26090951	rs1799945	+	C	C	C/G	single	intron,ncRNA,missense	0.894729,0.105271,
+
+Genome sequence around rs1799945 (1001 bp) = aaaaaaaaaaaaaaaaaaaaactgaaggaattattcctcaggatttgggtctaatttgccctgagcaccaactcctgagttcaactaccatggctagacacaccttaacattttctagaatccaccagctttagtggagtctgtctaatcatgagtattggaataggatctgggggcagtgagggggtggcagccacgtgtggcagagaaaagcacacaaggaaagagcacccaggactgtcatatggaagaaagacaggactgcaactcacccttcacaaaatgaggaccagacacagctgatggtatgagttgatgcaggtgtgtggagcctcaacatcctgctcccctcctactacacatggttaaggcctgttgctctgtctccaggttcacactctctgcactacctcttcatgggtgcctcagagcaggaccttggtctttccttgtttgaagctttgggctacgtggatgaccagctgttcgtgttctatgATCATgagagtcgccgtgtggagccccgaactccatgggtttccagtagaatttcaagccagatgtggctgcagctgagtcagagtctgaaagggtgggatcacatgttcactgttgacttctggactattatggaaaatcacaaccacagcaagggtatgtggagagggggcctcaccttcctgaggttgtcagagcttttcatcttttcatgcatcttgaaggaaacagctggaagtctgaggtcttgtgggagcagggaagagggaaggaatttgcttcctgagatcatttggtccttggggatggtggaaatagggacctattcctttggttgcagttaacaaggctggggatttttccagagtcccacaccctgcaggtcatcctgggctgtgaaatgcaagaagacaacagtaccgagggctactggaagtacgggtatgatgggcaggaccaccttgaattctgccctgacacactggattggagagcagcagaac
+Central 5 bp = ATCAT
+*** nomask == False, therefore common SNPs are masked as 'n' ***
+WildTemplate = ATCAT
+MutationTemplate = ATGAT
+
+Additional mutation at -2 position
+Wild template (force left) = C, C, A -> C => C
+Mutation template (force left) = G, G, A -> A => A
+Wild template (force right) = G, G, A -> A => T
+Mutation template (force right) = C, C, A -> C => G
+
+Mutation template
+=========Force Right==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.mutationTemplate.minus2.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+OLIGO            start  len      tm     gc%  any_th  3'_th hairpin seq
+LEFT PRIMER        447   21   59.59   47.62    0.00   0.00   42.19 tccttgtttgaagctttgggc
+RIGHT PRIMER       518   18   60.43   66.67   16.62   0.00    0.00 cacacggcgactctcACC
+
+=========Force Left==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.mutationTemplate.minus2.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+OLIGO            start  len      tm     gc%  any_th  3'_th hairpin seq
+LEFT PRIMER        480   22   59.66   50.00    5.25   0.00   36.91 cagctgttcgtgttctatgACG
+RIGHT PRIMER       543   20   59.96   55.00   15.22   0.00    0.00 tggaaacccatggagttcgg
+
+
+Wild template
+=========Force Right==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.wtTemplate.minus2.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+OLIGO            start  len      tm     gc%  any_th  3'_th hairpin seq
+LEFT PRIMER        447   21   59.59   47.62    0.00   0.00   42.19 tccttgtttgaagctttgggc
+RIGHT PRIMER       519   19   60.73   63.16   16.62   0.00    0.00 ccacacggcgactctcAAG
+
+=========Force Left==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.wtTemplate.minus2.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+OLIGO            start  len      tm     gc%  any_th  3'_th hairpin seq
+LEFT PRIMER        480   22   59.33   50.00    5.25   0.00    0.00 cagctgttcgtgttctatgACC
+RIGHT PRIMER       543   20   59.96   55.00   15.22   0.00    0.00 tggaaacccatggagttcgg
+
+
+Additional mutation at -3 position
+Wild template (force left) = C, C, T -> G => G
+Mutation template (force left) = G, G, T -> G => G
+Wild template (force right) = G, G, T -> G => C
+Mutation template (force right) = C, C, T -> G => C
+
+Mutation template
+=========Force Right==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.mutationTemplate.minus3.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+OLIGO            start  len      tm     gc%  any_th  3'_th hairpin seq
+LEFT PRIMER        447   21   59.59   47.62    0.00   0.00   42.19 tccttgtttgaagctttgggc
+RIGHT PRIMER       518   18   60.50   66.67   16.62   0.00   42.81 cacacggcgactctcGTC
+
+=========Force Left==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.mutationTemplate.minus3.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+OLIGO            start  len      tm     gc%  any_th  3'_th hairpin seq
+LEFT PRIMER        480   22   59.59   50.00    5.25   0.00    0.00 cagctgttcgtgttctatgGTG
+RIGHT PRIMER       543   20   59.96   55.00   15.22   0.00    0.00 tggaaacccatggagttcgg
+
+
+Wild template
+=========Force Right==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.wtTemplate.minus3.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+NO PRIMERS FOUND
+
+SEQUENCE SIZE: 1001
+
+=========Force Left==========
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.wtTemplate.minus3.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+OLIGO            start  len      tm     gc%  any_th  3'_th hairpin seq
+LEFT PRIMER        480   22   59.33   50.00    5.25   0.00    0.00 cagctgttcgtgttctatgGTC
+RIGHT PRIMER       543   20   59.96   55.00   15.22   0.00    0.00 tggaaacccatggagttcgg
+

@@ -78,7 +78,7 @@ Output:
 			Designed PCR primers that the left primer to be wild type allele specific at 3' end and to have additional mutation at -3 position
 
 Note #1: 
-	1) Many of the output files are useful intermediate files for manual examination or debug purpose
+	1) Many of the output files are useful intermediate files for manual examination or debug purposes
 	2) The essential output files that contains the designed PCR primers are:
 		"screenOutput.txt"
 		"masked.template.mutationTemplate.minus2.txt.right.primer3.txt"
@@ -89,7 +89,7 @@ Note #1:
 		"masked.template.mutationTemplate.minus3.txt.left.primer3.txt"
 		"masked.template.wtTemplate.minus3.txt.right.primer3.txt"
 		"masked.template.wtTemplate.minus3.txt.left.primer3.txt"
-	3) The output file "screenOutput.txt" has all designed PCR primers and other useful runtime informations
+	3) The output file "screenOutput.txt" has the first set of designed PCR primers and other useful runtime informations
 
 Note #2: In case there are no primers found, you can do one of two things, or both.
 	1) Relax the stringency of the parameter file "parameterOverride.json" or
@@ -97,3 +97,5 @@ Note #2: In case there are no primers found, you can do one of two things, or bo
 		>>> python3 armsprimer3.py rs6025/nomask
 
 Note #3: ARMSprimer3 was default to use human genome data 'hg38' (in function "ucscGenomeBrowser" of "bioCommons.py"), 'SNP147' (in function "findAltAllele" of "bioCommons.py"), and 'SNP147Common' (in function "getMaskedTemplate" of "maskSNP.py"). These datasets can be replaced with other species data sets to design ARMS-PCR primers for other species. 
+
+Note #4: The validity of ARMSprimer3 was confirmed by successfully developing four diagnostic tests using ARMSprimer3 in the molecular diagnostic laboratory at Saint Louis University. (see ARMSprimer3 output files in folders rs6025, rs1799963, rs1800562, and rs1799945, at https://github.com/PCRPrimerDesign/ARMSprimer3/, for factor V Leiden, prothrombin G20210A, and hereditary hemochromatosis-related C282Y and H63D mutations detection, respectively)

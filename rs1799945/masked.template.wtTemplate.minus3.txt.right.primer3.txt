@@ -1,0 +1,40 @@
+PRIMER PICKING RESULTS FOR rs1799945/masked.template.wtTemplate.minus3.txt
+
+No mispriming library specified
+Using 1-based sequence positions
+NO PRIMERS FOUND
+
+SEQUENCE SIZE: 1001
+INCLUDED REGION SIZE: 1001
+
+
+    1 aaaaaaaaaaaaaaaaaaaaactgaaggaattattcctcaggatttgggtctaatttgcc
+   61 ctgagcaccaactcctgagttcaactaccatggctagacacaccttaacattttctagaa
+  121 tccaccagctttagtggagtctgtctaatcatgagtattggaataggatctgggggcagt
+  181 gagggggtggcagccacgtgtggcagagaaaagcacacaaggaaagagcacccaggactg
+  241 tcatatggaagaaagacaggactgcaactcacccttcacaaaatgaggaccagacacagc
+  301 tgatggtatgagttgatgcaggtgngtggagcctcaacatcctgctcccctcctactaca
+  361 catggttaaggcctgttgctctgtctccaggttcacactctctgcactacctcttcatgg
+  421 gtgcctcagagcaggaccttggtctttccttgtttgaagctttgggctacgtggatgacc
+  481 agctgttcgtgttctatgGTCACgagagtcgccgtgtggagccccgaactccatgggttt
+  541 ccagtagaatttcaagccagatgtggctgcagctgagtcagagtctgaaagggtgggatc
+  601 acatgttcactgttgacttctggactattatggaaaatcacaaccacagcaagggtangt
+  661 ggagagggggcctcaccttcctgaggttgtcagagcttttcatcttttcatgcatcttga
+  721 aggaaacagctggaagtctgaggtcttgtgggagcagggaagagggaaggaatttgcttc
+  781 ctgagatcatttggtccttggggatggtggaaatagggacctattcctttggttgcagtt
+  841 aacaaggctggggatttttccagagtcccacaccctgcaggtcatcctgggctgtgaaat
+  901 gcaagaagacaacagtaccgagggctactggaagtacgggtatgatgggcaggaccacct
+  961 tgaattctgccctgacacactggattggagagcagcagaac
+
+
+Statistics
+         con   too    in    in   not          no    tm    tm   high  high  high        high      
+         sid  many   tar  excl    ok   bad    GC   too   too any_th 3'_th hair-  poly   end      
+        ered    Ns   get   reg   reg   GC% clamp   low  high  compl compl   pin     X  stab    ok
+Left   16042    70     0     0     0    55     0  3542 11053      0     0     0    23     0  1299
+Right     18     0     0     0     0     0     0     0    17      0     0     1     0     0     0
+Pair Stats:
+considered 4, unacceptable product size 4, ok 0
+libprimer3 release 2.5.0
+
+
